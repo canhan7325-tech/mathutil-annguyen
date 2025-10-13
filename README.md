@@ -19,4 +19,4 @@ This project demonstrates software development principles, including:
 - Database interaction, validation, and error handling  
 
 
-![SWT302 Banner](https://upload.wikimedia.org/wikipedia/commons/2/2e/FPT_University_logo.png)
+![SWT302 Banner](https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/11/tai-hinh-nen-dep-mien-phi.jpg)
