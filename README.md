@@ -17,3 +17,6 @@ This project demonstrates software development principles, including:
 - Backend logic with Spring Boot  
 - Frontend integration (if applicable)  
 - Database interaction, validation, and error handling  
+
+
+![SWT302 Banner](https://upload.wikimedia.org/wikipedia/commons/2/2e/FPT_University_logo.png)
