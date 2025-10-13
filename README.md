@@ -11,7 +11,7 @@ This project is developed as part of the **Software Engineering (SWT302)** cours
 
 ---
 
-## 🧩 About the Project
+## About the Project
 This project demonstrates software development principles, including:
 - Clean architecture and modular design  
 - Backend logic with Spring Boot  
