@@ -13,22 +13,25 @@ public class MathUtillity {
     // bai nay chi tinh tu 0 ->20, vuot qua khoang nay coi la khong hop le
     // 0->20 valid bounadary, validated bounadary -> vung gia tri hop le
     //0,20  bounadary value - gia tri bien cua tap gia tri
-            // xich qua 1 xiu la sang vung invalid boundary
+    // xich qua 1 xiu la sang vung invalid boundary
 
-    public static long getFactorial(int n){
-        if (n <0 || n > 20){
+    public static long getFactorial(int n) {
+        if (n < 0 || n > 20) {
             // nem ngoai le, kem 1 cau chui,va dung ham nagy , ko co value nao dc tra ve
             throw new IllegalArgumentException("Must be  between 0 and 20");
         }
         // bien trung gian de tinh phep nhan
-        long result = 1;
-        for (int i = 1; i <= n; i++){
-            result *= i; // thuat toan con heo dat
+//        long result = 1;
+//        for (int i = 1; i <= n; i++){
+//            result *= i; // thuat toan con heo dat
+        if (n == 0 || n == 1) {
+            return 1;
+
+            return n * getFactorial(n - 1);
         }
-        return result;
-    }
 //public static long getFactorial(int n){
 //    return 0;
 //}
 
+    }
 }
